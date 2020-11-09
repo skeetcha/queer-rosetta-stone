@@ -1,0 +1,2 @@
+<p><img src="https://travis-ci.com/skeetcha/queer-rosetta-stone.svg?branch=master"></p><p>A <a class="tc-tiddlylink tc-tiddlylink-missing" href="#TiddlyWiki">TiddlyWiki</a> hosted on <a class="tc-tiddlylink tc-tiddlylink-missing" href="#GitHub">GitHub</a> pages holding language from around the world describing identities in the LGBTQ+ community
+</p>
