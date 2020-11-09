@@ -3,7 +3,9 @@
           "tiddlywiki/filesystem",
           "tiddlywiki/tiddlyweb",
           "tiddlywiki/codemirror",
-          "tiddlywiki/highlight"
+          "tiddlywiki/highlight",
+		  "tiddlywiki/markdown",
+		  "tiddlywiki/menubar"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
@@ -18,7 +20,7 @@
 		"favicon": [
 			"--savetiddler","$:/favicon.ico","favicon.ico"],
 		"readme": [
-			"--rendertiddler","ReadMe","readme.md","text/html",
-			"--rendertiddler","License","license.md","text/html"]
+			"--rendertiddler","ReadMe","README.md","text/html",
+			"--rendertiddler","License","LICENSE","text/html"]
 	}
 }
