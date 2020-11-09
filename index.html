@@ -60,7 +60,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 
 <!--~~ Static styles ~~-->
 <div id="styleArea">
-<style data-tiddler-title="$:/boot/boot.css" data-tiddler-type="text/css" data-tiddler-revision="0" data-tiddler-bag="default" type="text/css">/*
+<style data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/boot.css" data-tiddler-type="text/css" type="text/css">/*
 Basic styles used before we boot up the parsing engine
 */
 
@@ -165,9 +165,19 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/plugin-info--1890410626-$:/plugins/tiddlywiki/menubar--524028290</li>
+
+<li>$:/state/tab/moresidebar-1850697562</li>
+
+<li>$:/state/tab/sidebar--595412856</li>
+
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
 <li>$:/StoryList</li>
+
+<li>$:/tags/MenuBar</li>
+
+<li>$:/temp/info-plugin</li>
 
 <li>$:/theme</li>
 
@@ -283,7 +293,7 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" revision="0" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/Acknowledgements&quot;: {
@@ -9656,20 +9666,20 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20140901120057909" modified="20140901120057909" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20140901120057909" modified="20140901120057909" revision="0" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki">
 <pre>[[Getting Started]]
 </pre>
 </div>
-<div title="$:/favicon.ico" type="image/x-icon" revision="0" bag="default">
+<div bag="default" revision="0" title="$:/favicon.ico" type="image/x-icon">
 <pre>AAABAAIAEBAAAAEAIAAoBQAAJgAAACAgAAABACAAKBQAAE4FAAAoAAAAEAAAACAAAAABACAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANVwRyvZclKP2HJS1dlyUvPZclLz2HJS1dlyUo/VcEcrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqioqBtdxUJTegWT94pJ4/+emkf/01Mr/3Hpb/9t1Vf/oppL/+OTe/vDHvMeqKioGAAAAAAAAAAAAAAAAqioqBtlyUr3cfV7/+u/r//Xb0v/57ej/5JZ8/9t1Vf/bdVX/+/Tx//rw7P/bdlb/2XJSvaoqKgYAAAAAAAAAANdxUJTbdVX/7Lal////////////6aya/9t1Vf/bdVX/23VV//nr5v/xyb3/23VV/9t1Vf/XcVCUAAAAANVwRyvadFT923VV/+SWff///////////+6/r//bd1f/3oJm/+CIbP/++/v/89LI/9t1Vf/bdVX/2nRU/dVwRyvZclKP23VV/9t1Vf/bdVX/9NbL///////+/Pz//v7+///////////////////////01Mr/3Hlb/9t1Vf/ZclKP2HJS1dt1Vf/bdVX/3oFi//v08f////////////////////////////////////////////LNw//ln4j/2HJS1dlyUvPklnz/7Lel//LLv////////////////////////////////////////////////////////fv6/9yFZvTruKb48ci7/+msmv/stqX/+OPc//////////////////318//99vP//fr5//vy7//////////////////lpZH37b+v6tt1Vf/bdVX/23VV/9t1Vf/hjnT/5JZ+/9+Faf/bdVX/23VV/9t1Vf/ik3r/////////////////7Lin5+qxn7HbdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/3Hlb//fi3P/ilHz/4Yxy/+y4qLbVcEcr2nRU/dt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9p0VP3VcEcrAAAAANdxUJTbdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/XcVCUAAAAAAAAAACqKioG2XJSvdt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/ZclK9qioqBgAAAAAAAAAAAAAAAKoqKgbXcVCU2nRU/dt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9p0VP3XcVCUqioqBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANVwRyvZclKP2HJS1dlyUvPZclLz2HJS1dlyUo/VcEcrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAIAAAAEAAAAABACAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKoqKgbXb09H2XJQldhyUr/YdFPZ2XJS89lyUvPYdFPZ2HJSv9lyUJXXb09HqioqBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMlqShjZc1GW2HJT8dt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/YclPx2XNRlslqShgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJFIJAfZc1KC2HJT9Nt1Vf/bdVX/23VV/9t1Vf/fhmr/6q2b/+mtmv/ceFr/23VV/9t1Vf/bdVX/23VV/9t1Vf/qsJ3//PPx/v38+/rz7+tBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADJakoY2XJTx9t1Vf/bdVX/6aya//HIvP/moIv/5qGM//35+P///////////+GPdf/bdVX/23VV/9t1Vf/xxrn/+vDs//79/f//////89LI/9p3V8jJakoYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzW5ILtlyUuPbdVX/23VV/+6/r///////8MS2//LNwv/+/Pz//v7+//PSyP/moIr/23VV/9t1Vf/bdVX/23VV//nq5f////////////z39f/cfV7/23VV/9lyUuPXcUktAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMlqShjZclLj23VV/9t1Vf/kln7////////////018/////////////qr5v/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/+Obf////////////8sq9/9t1Vf/bdVX/23VV/9lyUuPJakoYAAAAAAAAAAAAAAAAAAAAAAAAAACRSCQH2XJTx9t1Vf/bdVX/23VV//bf2P//////////////////////+erl/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/129P////////////lnof/23VV/9t1Vf/bdVX/23VV/9lyU8eRSCQHAAAAAAAAAAAAAAAAAAAAANlzUoLbdVX/23VV/9t1Vf/egmT////////////////////////////23NT/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV//PSx////////////9+Ga//bdVX/23VV/9t1Vf/bdVX/23VV/9lzUoIAAAAAAAAAAAAAAADJakoY2HJT9Nt1Vf/bdVX/23VV/9t1Vf/23tX///////////////////////vz8f/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/+u7q////////////3H5f/9t1Vf/bdVX/23VV/9t1Vf/bdVX/2HJT9MlqShgAAAAAAAAAANlzUZbbdVX/23VV/9t1Vf/bdVX/23VV/+GNc//+/f3//////////////////////+GReP/beFn/4Ilu/+KTev/lmoL/4pJ5/+ahjP/////////////////uwrX/23ZW/9t1Vf/bdVX/23VV/9t1Vf/bdVX/2XNRlgAAAACqKioG2HJT8dt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV//LNwf///////////////////////Pf1//79/f/////////////////////////////////////////////////339j/4Idr/9t1Vf/bdVX/23VV/9t1Vf/YclPxqioqBtdvT0fbdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/4Yxy///////////////////////////////////////////////////////////////////////////////////////99vT/4Y91/9t1Vf/bdVX/23VV/9t1Vf/Xb09H2XJQldt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t2Vv/z0sj////////////////////////////////////////////////////////////////////////////////////////////23tX/23hZ/9t4Wf/bdVX/23VV/9lyUJXYclK/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/6KmV//////////////////////////////////////////////////////////////////////////////////////////////////79/f/78ez//Pf1/+Wag//bdVX/2HJSv9h0U9nbdVX/23VV/9t1Vf/bdVX/3H1e/9t4Wf/xxrn//////////////////////////////////////////////////////////////////////////////////////////////////////////////////fTy/9x/YP/YdFPZ2XJS89t1Vf/moYz/9drQ//36+f///////v39//36+f//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////67Oh/9lzUvLZdFXz89LH///////79PH/9t7V//Xb0//56+f//v39///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////0187/2XJS8+u8rOv78vD/5Z6G/9t1Vf/bdVX/23VV/9t1Vf/ceVv/5Z6H//ru6P/////////////////////////////////68O3/9+Ha//nn4//68O3//Pf1//vy8P/229T/+u/r//////////////////////////////////jm3//YdFPZ+u/r9uWagv/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/3Hlb/+WfiP/uva7/8MW4/+6/r//nppH/34Zq/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/uwLH/////////////////////////////////+u7o/9hyUr/89vL023ZW/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/+emkf/////////////////////////////////99PL/2XJQlfvz8tjbdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/4Idr////////////8ci8/+qsmP/ik3r/7Lal//np4//psJ9r/Pj4dNx4WvHbdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/8s3B/+/GuP/bdVX/23VV/9t1Vf/bdVX/2HNU8f/s7DcAAAAA2XNRltt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/Zc1GWAAAAAAAAAADJakoY2HJT9Nt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/2HJT9MlqShgAAAAAAAAAAAAAAADZc1KC23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/Zc1KCAAAAAAAAAAAAAAAAAAAAAJFIJAfZclPH23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/2XJTx5FIJAcAAAAAAAAAAAAAAAAAAAAAAAAAAMlqShjZclLj23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9lyUuPJakoYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM1uSC7ZclLj23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/ZclLj13FJLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMlqShjZclPH23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/2XJTx8lqShgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJFIJAfZc1KC2HJT9Nt1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/2HJT9NlzUoKRSCQHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADJakoY2XNRlthyU/HbdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/23VV/9t1Vf/bdVX/2HJT8dlzUZbJakoYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqioqBtdvT0fZclCV2HJSv9h0U9nZclLz2XJS89h0U9nYclK/2XJQlddvT0eqKioGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</pre>
 </div>
-<div title="$:/isEncrypted" revision="0" bag="default">
+<div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div title="$:/language" revision="0" bag="default">
+<div bag="default" revision="0" title="$:/language">
 <pre>$:/languages/en-GB</pre>
 </div>
-<div author="Ben Webber" core-version="&gt;=5.0.0" dependents="$:/languages/en-GB" description="English (US)" name="en-US" plugin-priority="110" plugin-type="language" title="$:/languages/en-US" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="Ben Webber" bag="default" core-version="&gt;=5.0.0" dependents="$:/languages/en-GB" description="English (US)" name="en-US" plugin-priority="110" plugin-type="language" revision="0" title="$:/languages/en-US" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/language/Buttons/Clear/Hint&quot;: {
@@ -9716,7 +9726,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div dependents="" description="CodeMirror editor" list="readme usage keyboard license" name="CodeMirror" plugin-type="plugin" title="$:/plugins/tiddlywiki/codemirror" type="application/json" version="5.1.22" revision="0" bag="default">
+<div bag="default" dependents="" description="CodeMirror editor" list="readme usage keyboard license" name="CodeMirror" plugin-type="plugin" revision="0" title="$:/plugins/tiddlywiki/codemirror" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/config/EditorTypeMappings/application/javascript&quot;: {
@@ -10034,7 +10044,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div author="Joao Bolila" dependents="" description="Highlight.js syntax highlighting" list="readme usage howto license" name="Highlight" plugin-type="plugin" title="$:/plugins/tiddlywiki/highlight" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="Joao Bolila" bag="default" dependents="" description="Highlight.js syntax highlighting" list="readme usage howto license" name="Highlight" plugin-type="plugin" revision="0" title="$:/plugins/tiddlywiki/highlight" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/config/HighlightPlugin/TypeMappings/application/javascript&quot;: {
@@ -10104,7 +10114,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div dependents="" description="Markdown parser based on remarkable by Jon Schlinkert" list="readme usage" name="Markdown" plugin-type="plugin" title="$:/plugins/tiddlywiki/markdown" type="application/json" version="5.1.22" revision="0" bag="default">
+<div bag="default" dependents="" description="Markdown parser based on remarkable by Jon Schlinkert" list="readme usage" name="Markdown" plugin-type="plugin" revision="0" title="$:/plugins/tiddlywiki/markdown" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/tiddlywiki/markdown/EditorToolbar/bold&quot;: {
@@ -10309,7 +10319,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div dependents="" description="Menu Bar" list="readme config" name="Menu Bar" plugin-type="plugin" title="$:/plugins/tiddlywiki/menubar" type="application/json" version="5.1.22" revision="0" bag="default">
+<div bag="default" dependents="" description="Menu Bar" list="readme config" name="Menu Bar" plugin-type="plugin" revision="0" title="$:/plugins/tiddlywiki/menubar" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/config/DefaultColourMappings/menubar-foreground&quot;: {
@@ -10437,22 +10447,92 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div title="$:/SiteSubtitle" revision="0" bag="default">
+<div bag="default" revision="0" title="$:/SiteSubtitle">
 <pre>a wiki for gender identities, sexualities, and romantic orientations in multiple languages</pre>
 </div>
-<div title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" revision="0" title="$:/SiteTitle" type="text/vnd.tiddlywiki">
 <pre>Queer Rosetta Stone</pre>
 </div>
-<div title="$:/status/RequireReloadDueToPluginChange" revision="0" bag="default">
+<div created="20201109191933564" modified="20201109192235491" title="$:/state/plugin-info--1890410626-$:/plugins/tiddlywiki/menubar--524028290">
+<pre>config</pre>
+</div>
+<div created="20201109191930836" modified="20201109191930836" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Plugins</pre>
+</div>
+<div created="20201109191928037" modified="20201109191928395" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
+</div>
+<div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="[[Getting Started]]" title="$:/StoryList" revision="1" bag="default">
+<div created="20201109191931660" list="$:/plugins/tiddlywiki/menubar $:/plugins/tiddlywiki/menubar/menu [[Getting Started]]" modified="20201109192214802" title="$:/StoryList">
 <pre></pre>
 </div>
-<div title="$:/theme" revision="0" bag="default">
+<div created="20201109192241277" list="$:/plugins/tiddlywiki/menubar/items/hamburger $:/plugins/tiddlywiki/menubar/items/topleftbar gettingstarted $:/plugins/tiddlywiki/menubar/items/contents $:/plugins/tiddlywiki/menubar/items/search $:/plugins/tiddlywiki/menubar/items/pagecontrols $:/plugins/tiddlywiki/menubar/items/server $:/plugins/tiddlywiki/menubar/items/toprightbar $:/plugins/tiddlywiki/menubar/items/sidebar" modified="20201109192241277" title="$:/tags/MenuBar">
+<pre></pre>
+</div>
+<div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/info/browser&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser&quot;,
+            &quot;text&quot;: &quot;yes&quot;
+        },
+        &quot;$:/info/node&quot;: {
+            &quot;title&quot;: &quot;$:/info/node&quot;,
+            &quot;text&quot;: &quot;no&quot;
+        },
+        &quot;$:/info/url/full&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/full&quot;,
+            &quot;text&quot;: &quot;https://skeetcha.github.io/queer-rosetta-stone/index.html&quot;
+        },
+        &quot;$:/info/url/host&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/host&quot;,
+            &quot;text&quot;: &quot;skeetcha.github.io&quot;
+        },
+        &quot;$:/info/url/hostname&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
+            &quot;text&quot;: &quot;skeetcha.github.io&quot;
+        },
+        &quot;$:/info/url/protocol&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
+            &quot;text&quot;: &quot;https:&quot;
+        },
+        &quot;$:/info/url/port&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/port&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/pathname&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
+            &quot;text&quot;: &quot;/queer-rosetta-stone/index.html&quot;
+        },
+        &quot;$:/info/url/search&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/search&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/origin&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/origin&quot;,
+            &quot;text&quot;: &quot;https://skeetcha.github.io&quot;
+        },
+        &quot;$:/info/browser/screen/width&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
+            &quot;text&quot;: &quot;2560&quot;
+        },
+        &quot;$:/info/browser/screen/height&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
+            &quot;text&quot;: &quot;1440&quot;
+        },
+        &quot;$:/info/browser/language&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/language&quot;,
+            &quot;text&quot;: &quot;en-US&quot;
+        }
+    }
+}</pre>
+</div>
+<div bag="default" revision="0" title="$:/theme">
 <pre>$:/themes/tiddlywiki/vanilla</pre>
 </div>
-<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" revision="0" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/snowwhite/base&quot;: {
@@ -10463,7 +10543,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Basic theme" name="Vanilla" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/vanilla" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="" description="Basic theme" name="Vanilla" plugin-priority="0" plugin-type="theme" revision="0" title="$:/themes/tiddlywiki/vanilla" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/vanilla/themetweaks&quot;: {
@@ -10561,32 +10641,32 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20201108194931693" modified="20201108205724195" tags="Asexual" title="Aceflux" revision="0" bag="default">
+<div bag="default" created="20201108194931693" modified="20201108205724195" revision="0" tags="Asexual" title="Aceflux">
 <pre>Aceflux is defined as someone whose sexual attraction fluctuates over time, but generally stays on the asexual spectrum. One day, they might identify as [[demisexual|Demisexual]], another day they might identify as [[greyasexual|Greyasexual]], and other days, they might identify as strictly [[asexual|Asexual]]. Aceflux people could also identify as [[allosexual|Allosexual]] at times.
 
 The romantic counterpart to aceflux is [[aroflux|Aroflux]].</pre>
 </div>
-<div created="20201108195556902" modified="20201108205844123" tags="Asexual" title="Acespike" revision="0" bag="default">
+<div bag="default" created="20201108195556902" modified="20201108205844123" revision="0" tags="Asexual" title="Acespike">
 <pre>Acespike is defined as someone who is generally [[asexual|Asexual]] but has rare, sudden, and intense spikes of sexual attraction towards someone before returning to asexuality.
 
 The romantic counterpart to acespike is [[arospike|Arospike]].</pre>
 </div>
-<div created="20201108195245947" modified="20201108195245947" tags="[[Other Terms]]" title="Allosexual" revision="0" bag="default">
+<div bag="default" created="20201108195245947" modified="20201108195245947" revision="0" tags="[[Other Terms]]" title="Allosexual">
 <pre></pre>
 </div>
-<div created="20201108081711865" modified="20201108194227437" tags="Homosexual" title="Androsexual" revision="0" bag="default">
+<div bag="default" created="20201108081711865" modified="20201108194227437" revision="0" tags="Homosexual" title="Androsexual">
 <pre>Androsexual can mean many different things.
 
 # The exclusive sexual attraction to men. In this definition, [[heterosexual|Heterosexual]] women, [[gay|Gay]] men, and [[non-binary|Non-binary]] people attracted to men are considered androsexual.
 # The attraction to masculine-presenting and masculine-aligned people, regardless of their gender.
 # The attraction to &quot;male anatomy&quot; regardless of whether or not the person identifies as male (this definition is considered as transphobic as it reduces people to their genitals).</pre>
 </div>
-<div created="20201108205600754" modified="20201108210358795" tags="Aromantic" title="Aroflux" revision="0" bag="default">
+<div bag="default" created="20201108205600754" modified="20201108210358795" revision="0" tags="Aromantic" title="Aroflux">
 <pre>Aroflux is defined as someone whose romantic attraction fluctuates over time, but generally stays on the aromantic spectrum. One day, they might identify as [[demiromantic|Demiromantic]], another day they might identify as [[greyaromantic|Greyaromantic]], and other days, they might identify as strictly [[aromantic|Aromantic]]. Aroflux people could also identify as romantic at times.
 
 The sexual counterpart to aroflux is [[aceflux|Aceflux]].</pre>
 </div>
-<div created="20201108204444092" list="Aroflux Arospike Demiromantic Frayromantic Greyaromantic Lithromantic Reciproromantic" modified="20201108210605466" tags="[[Romantic Orientation]]" title="Aromantic" revision="0" bag="default">
+<div bag="default" created="20201108204444092" list="Aroflux Arospike Demiromantic Frayromantic Greyaromantic Lithromantic Reciproromantic" modified="20201108210605466" revision="0" tags="[[Romantic Orientation]]" title="Aromantic">
 <pre>Aromanticism is both a romantic orientation and a spectrum. As a romantic orientation, aromanticism is defined as the lack of romantic attraction towards any gender. There are many different ways to be aromantic, and many people on the aromantic spectrum may also identify as aromantic alongside their aro-spec identity.
 
 ! Aromantic Spectrum Identities
@@ -10601,12 +10681,12 @@ The sexual counterpart to aroflux is [[aceflux|Aceflux]].</pre>
 
 The sexual counterpart to aromanticism is [[asexuality|Asexual]].</pre>
 </div>
-<div created="20201108205747111" modified="20201108205825235" tags="Aromantic" title="Arospike" revision="0" bag="default">
+<div bag="default" created="20201108205747111" modified="20201108205825235" revision="0" tags="Aromantic" title="Arospike">
 <pre>Acespike is defined as someone who is generally [[aromantic|Aromantic]] but has rare, sudden, and intense spikes of romantic attraction towards someone before returning to aromanticism.
 
 The sexual counterpart to arospike is [[acespike|Acespike]].</pre>
 </div>
-<div created="20201108081310018" list="Aceflux Acespike Demisexual Fraysexual Greyasexual Lithosexual Reciprosexual" modified="20201108205529468" tags="[[Sexual Orientation]]" title="Asexual" revision="0" bag="default">
+<div bag="default" created="20201108081310018" list="Aceflux Acespike Demisexual Fraysexual Greyasexual Lithosexual Reciprosexual" modified="20201108205529468" revision="0" tags="[[Sexual Orientation]]" title="Asexual">
 <pre>Asexuality is both a sexual orientation and a spectrum. As a sexual orientation, asexuality is defined as the lack of sexual attraction towards any gender. There are many different ways to be asexual, and many people on the asexual spectrum may also identify as asexual alongside their ace-spec identity. The opposite of asexuality is [[allosexual|Allosexual]].
 
 ! Asexual Spectrum Identities
@@ -10620,59 +10700,59 @@ The sexual counterpart to arospike is [[acespike|Acespike]].</pre>
 
 The romantic counterpart to asexuality is [[aromanticism|Aromantic]].</pre>
 </div>
-<div created="20201108204450709" list="Panromantic Omniromantic Polyromantic" modified="20201108210958578" tags="[[Romantic Orientation]]" title="Biromantic" revision="0" bag="default">
+<div bag="default" created="20201108204450709" list="Panromantic Omniromantic Polyromantic" modified="20201108210958578" revision="0" tags="[[Romantic Orientation]]" title="Biromantic">
 <pre>Biromantic is both a romantic orientation and an umbrella term. As a romantic orientation, it describes someone who is attracted to multiple genders, specifically two or more. It is commonly referred to as having romantic attraction to both men and women, but biromantic people can be attracted to any gender. Biromanticism as an umbrella term can also include other romantic orientations like [[panromanticism|Panromantic]], [[omniromanticism|Omniromantic]], and [[polyromanticism|Polyromantic]] although this list is not exhaustive (neither is really any of this wiki).
 
 The sexual counterpart to biromanticism is [[bisexuality|Bisexual]].</pre>
 </div>
-<div created="20201108181940829" list="Pansexual Omnisexual Polysexual" modified="20201108211013938" tags="[[Sexual Orientation]]" title="Bisexual" revision="0" bag="default">
+<div bag="default" created="20201108181940829" list="Pansexual Omnisexual Polysexual" modified="20201108211013938" revision="0" tags="[[Sexual Orientation]]" title="Bisexual">
 <pre>Bisexual is both a sexual identity and an umbrella term. As a sexual identity, it describes someone who is attracted to multiple genders, specifically two or more. It is commonly referred to as having sexual attraction to both men and women, but bisexual people can be attracted to any gender. Bisexuality as an umbrella term can also include other sexualities like [[pansexual|Pansexual]], [[omnisexual|Omnisexual]], and [[polysexual|Polysexual]] although this list is not exhaustive (neither is really any of this wiki).
 
 The romantic counterpart to bisexuality is [[biromanticism|Biromantic]].</pre>
 </div>
-<div created="20201108211606052" modified="20201108211854232" tags="Gender" title="Cisgender" revision="0" bag="default">
+<div bag="default" created="20201108211606052" modified="20201108211854232" revision="0" tags="Gender" title="Cisgender">
 <pre>Cisgender is defined as identifying with the gender you were assigned at birth. The opposite to cisgender is [[transgender|Transgender]].</pre>
 </div>
-<div created="20201108205854642" modified="20201108205918443" tags="Aromantic" title="Demiromantic" revision="0" bag="default">
+<div bag="default" created="20201108205854642" modified="20201108205918443" revision="0" tags="Aromantic" title="Demiromantic">
 <pre>Demiromantic is defined as experiencing romantic attraction after creating an emotional connection to someone.
 
 The sexual counterpart to demiromanticism is [[demisexuality|Demisexual]].</pre>
 </div>
-<div created="20201108195536274" modified="20201108205938299" tags="Asexual" title="Demisexual" revision="0" bag="default">
+<div bag="default" created="20201108195536274" modified="20201108205938299" revision="0" tags="Asexual" title="Demisexual">
 <pre>Demisexual is defined as experiencing sexual attraction after creating an emotional connection to someone.
 
 The romantic counterpart to demisexuality is [[demiromanticism|Demiromantic]].</pre>
 </div>
-<div created="20201108205946234" modified="20201108210028419" tags="Aromantic" title="Frayromantic" revision="0" bag="default">
+<div bag="default" created="20201108205946234" modified="20201108210028419" revision="0" tags="Aromantic" title="Frayromantic">
 <pre>Frayromantic (also known as ignotaromantic) is defined as being romantically attracted to people they do not have an emotional connection towards. Frayromantic is often described as the opposite of demiromantic.
 
 The sexual counterpart to frayromanticism is [[fraysexuality|Fraysexual]].</pre>
 </div>
-<div created="20201108195834081" modified="20201108210045499" tags="Asexual" title="Fraysexual" revision="0" bag="default">
+<div bag="default" created="20201108195834081" modified="20201108210045499" revision="0" tags="Asexual" title="Fraysexual">
 <pre>Fraysexual (also known as ignotasexual) is defined as being sexually attracted to people they do not have an emotional connection towards. Fraysexual is often described as the opposite of [[demisexual|Demisexual]].
 
 The sexual counterpart to fraysexuality is [[frayromanticism|Frayromantic]].</pre>
 </div>
-<div created="20201108082010448" modified="20201108205119012" tags="[[Other Terms]]" title="Gay" revision="0" bag="default">
+<div bag="default" created="20201108082010448" modified="20201108205119012" revision="0" tags="[[Other Terms]]" title="Gay">
 <pre>Gay is defined as being attracted to the same gender, and is often used as a synonym for [[homosexual|Homosexual]]. In the context of a gay male, the term [[androsexual|Androsexual]] can be used. In the context of a gay female, the terms [[lesbian|Lesbian]] and [[gynesexual|Gynesexual]] can be used. Gay can also be used as an umbrella term for the LGBTQ+ community.</pre>
 </div>
-<div created="20201108211632850" list="Cisgender Transgender" modified="20201108211718201" tags="[[Other Terms]]" title="Gender" revision="0" bag="default">
+<div bag="default" created="20201108211632850" list="Cisgender Transgender" modified="20201108211718201" revision="0" tags="[[Other Terms]]" title="Gender">
 <pre>See [[Gender Identity]] for more information.</pre>
 </div>
-<div created="20201108182025687" list="" modified="20201108211631825" tags="TableOfContents" title="Gender Identity" revision="0" bag="default">
+<div bag="default" created="20201108182025687" list="" modified="20201108211631825" revision="0" tags="TableOfContents" title="Gender Identity">
 <pre>Gender Identity is defined as the gender that one is. Someone can be [[cisgender|Cisgender]] in that they identify with the gender they were assigned at birth, or they can be [[transgender|Transgender]] in that they do not identify with the gender they were assigned at birth.
 
 ! List of Gender Identities</pre>
 </div>
-<div created="20201108070426886" modified="20201108081900784" title="Getting Started" revision="0" bag="default">
+<div bag="default" created="20201108070426886" modified="20201108081900784" revision="0" title="Getting Started">
 <pre>LGBTQ+ is an acronym that stands for [[lesbian|Lesbian]], [[gay|Gay]], [[bisexual|Bisexual]], [[transgender|Transgender]], and [[questioning|Questioning]]/[[queer|Queer]]. The + in the acronym aims to include those who are not part of the aforementioned letters but who do not experience cisgender heterosexual/-romantic norms.
 
 This wiki is written primarily in English. If you would like to contribute content for this wiki in other languages, please contact `@skeetcha#1439` on Discord.</pre>
 </div>
-<div caption="Getting Started" created="20201108070828970" description="Main Article" is-dropdown="no" modified="20201108071051368" tags="$:/tags/MenuBar" target="Getting Started" title="gettingstarted" revision="0" bag="default">
+<div bag="default" caption="Getting Started" created="20201108070828970" description="Main Article" is-dropdown="no" modified="20201108071051368" revision="0" tags="$:/tags/MenuBar" target="Getting Started" title="gettingstarted">
 <pre></pre>
 </div>
-<div created="20201108210054702" modified="20201108210348283" tags="Aromantic" title="Greyaromantic" revision="0" bag="default">
+<div bag="default" created="20201108210054702" modified="20201108210348283" revision="0" tags="Aromantic" title="Greyaromantic">
 <pre>Greyromanticism is both a romantic identity and an umbrella term. As a romantic orientation, it is defined as feeling romantic attraction only in certain circumstances.
 
 Grayromantic experiences can be defined as (but are not limited to):
@@ -10689,7 +10769,7 @@ It also functions as an umbrella term referring to identities such as [[demiroma
 
 The sexual counterpart to greyaromanticism is [[greyasexuality|Greyasexual]].</pre>
 </div>
-<div created="20201108195542810" modified="20201108210329186" tags="Asexual" title="Greyasexual" revision="0" bag="default">
+<div bag="default" created="20201108195542810" modified="20201108210329186" revision="0" tags="Asexual" title="Greyasexual">
 <pre>Greyasexual is both a sexual identity and an umbrella term. As a sexual orientation, it is defined as feeling sexual attraction only in certain circumstances.
 
 Grayasexual experiences can be defined as (but are not limited to):
@@ -10706,41 +10786,41 @@ As an umbrella term, it includes identities such as &quot;[[demisexual|Demisexua
 
 The romantic counterpart to greyasexuality is [[greyaromanticism|Greyaromantic]].</pre>
 </div>
-<div created="20201108081718688" modified="20201108194549724" tags="Homosexual" title="Gynesexual" revision="0" bag="default">
+<div bag="default" created="20201108081718688" modified="20201108194549724" revision="0" tags="Homosexual" title="Gynesexual">
 <pre>Gynosexual can mean many different things.
 
 # The exclusive sexual attraction to women. In this definition, [[heterosexual|Heterosexual]] men, [[gay|Gay]]/[[lesbian|Lesbian]] women, and [[non-binary|Non-binary]] people who are attracted to women are considered gynesexual.
 # The attraction to feminine-presenting and feminine-aligned people, regardless of their gender.
 # The attraction to &quot;female anatomy&quot; regardless of whether or not the person identifies as female (this definition is transphobic as it reduces people to their genitals).</pre>
 </div>
-<div created="20201108204426533" modified="20201108205147876" tags="[[Romantic Orientation]]" title="Heteroromantic" revision="0" bag="default">
+<div bag="default" created="20201108204426533" modified="20201108205147876" revision="0" tags="[[Romantic Orientation]]" title="Heteroromantic">
 <pre>Heteroromantic is the romantic attraction to the opposite gender.
 
 The sexual counterpart to heteroromantic is [[heterosexual|Heterosexual]].</pre>
 </div>
-<div created="20201108081302706" modified="20201108204526869" tags="[[Sexual Orientation]]" title="Heterosexual" revision="0" bag="default">
+<div bag="default" created="20201108081302706" modified="20201108204526869" revision="0" tags="[[Sexual Orientation]]" title="Heterosexual">
 <pre>Heterosexuality is the sexual attraction to the opposite gender.
 
 Attraction to men can also be described as [[androsexual|Androsexual]] and attraction to women can be described as [[gynesexual|Gynesexual]], but these terms are largely not used in relation to heterosexuality.
 
 The romantic counterpart to heterosexual is [[heteroromantic|Heteroromantic]].</pre>
 </div>
-<div created="20201108204433004" modified="20201108205236236" tags="[[Romantic Orientation]]" title="Homoromantic" revision="0" bag="default">
+<div bag="default" created="20201108204433004" modified="20201108205236236" revision="0" tags="[[Romantic Orientation]]" title="Homoromantic">
 <pre>Homoromanticism is the romantic attraction to the same gender.
 
 The sexual counterpart of homoromanticism is [[homosexuality|Homosexual]].</pre>
 </div>
-<div created="20201108081306993" list="Androsexual Gynesexual" modified="20201108205252123" tags="[[Sexual Orientation]]" title="Homosexual" revision="0" bag="default">
+<div bag="default" created="20201108081306993" list="Androsexual Gynesexual" modified="20201108205252123" revision="0" tags="[[Sexual Orientation]]" title="Homosexual">
 <pre>Homosexuality is the sexual attraction to the same gender.
 
 Attraction to men can also be described as [[androsexual|Androsexual]] (or just [[gay|Gay]]) and attraction to women can also be described as [[gynesexual|Gynesexual]] (this is also referred to as gay, but can also be referred to as [[lesbian|Lesbian]]).
 
 The romantic counterpart to homosexuality is [[homoromanticism|Homoromantic]].</pre>
 </div>
-<div created="20201108082015377" modified="20201108205051237" tags="[[Other Terms]]" title="Lesbian" revision="0" bag="default">
+<div bag="default" created="20201108082015377" modified="20201108205051237" revision="0" tags="[[Other Terms]]" title="Lesbian">
 <pre>Lesbian is a term used to describe women who love women or feminine-aligned people. The term is also used by [[non-binary|Non-binary]] people who are attracted to women.</pre>
 </div>
-<div title="License" type="text/plain" revision="0" bag="default">
+<div bag="default" revision="0" title="License" type="text/plain">
 <pre>MIT License
 
 Copyright (c) 2020 skeetcha
@@ -10764,7 +10844,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </pre>
 </div>
-<div created="20201108200736121" modified="20201108210657003" tags="Asexual" title="Lithosexual" revision="0" bag="default">
+<div bag="default" created="20201108200736121" modified="20201108210657003" revision="0" tags="Asexual" title="Lithosexual">
 <pre>Lithosexual (also known as akiosexual) is defined as experiencing sexual attraction but not wanting it to be reciprocated. It may be similar to [[fraysexual|Fraysexual]] in that they lose interest in or attraction to someone if the attraction is reciprocated, or they may be uncomfortable with someone reciprocating their sexual attraction.
 
 The romantic counterpart to lithosexual is [[lithromantic|Lithromantic]].
@@ -10775,7 +10855,7 @@ The romantic counterpart to lithosexual is [[lithromantic|Lithromantic]].
 
 &quot;There has not been any consensus about the term, both in the [[asexual|Asexual]] and lesbian community. There is no apparently evidence that the specific term 'lithosexual' was ever commonly used by lesbians. Currently lithosexual and akoisexual are used interchangeably.&quot;&lt;sup&gt;&lt;a href=&quot;https://lgbta.wikia.org/wiki/Lithosexual&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;</pre>
 </div>
-<div created="20201108210416971" modified="20201108210627362" tags="Aromantic" title="Lithromantic" revision="0" bag="default">
+<div bag="default" created="20201108210416971" modified="20201108210627362" revision="0" tags="Aromantic" title="Lithromantic">
 <pre>Lithoromantic (also known as akioromantic) is defined as experiencing romantic attraction but not wanting it to be reciprocated. It may be similar to [[frayromantic|Frayromantic]] in that they lose interest in or attraction to someone if the attraction is reciprocated, or they may be uncomfortable with someone reciprocating their romantic attraction.
 
 The sexual counterpart to lithromantic is [[lithosexual|Lithosexual]].
@@ -10784,10 +10864,10 @@ The sexual counterpart to lithromantic is [[lithosexual|Lithosexual]].
 
 &quot;Due to a claim of appropriating [[lesbian|Lesbian]] culture the term lithromantic has been replaced with akoiromantic. Currently both terms are used interchangeably.&quot;&lt;sup&gt;&lt;a href=&quot;https://lgbta.wikia.org/wiki/Lithromantic&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;</pre>
 </div>
-<div created="20201108194233956" modified="20201108194233956" tags="[[Gender Identity]]" title="Non-binary" revision="0" bag="default">
+<div bag="default" created="20201108194233956" modified="20201108194233956" revision="0" tags="[[Gender Identity]]" title="Non-binary">
 <pre></pre>
 </div>
-<div created="20201108211221088" modified="20201108211401330" tags="Biromantic" title="Omniromantic" revision="0" bag="default">
+<div bag="default" created="20201108211221088" modified="20201108211401330" revision="0" tags="Biromantic" title="Omniromantic">
 <pre>Omniromantic is defined as being attracted to all genders, but gender does in fact play a part in their attraction.
 
 The sexual counterpart of omniromanticism is [[omnisexuality|Omnisexual]].
@@ -10798,7 +10878,7 @@ Omniromantics can tend to feel a difference between genders. Omniromantics may b
 
 Panromanticism on the other hand does not exhibit this attribute of omniromanticism. Panromantics do not experience a difference of attraction among different genders.</pre>
 </div>
-<div created="20201108203401854" modified="20201108211342609" tags="Bisexual" title="Omnisexual" revision="0" bag="default">
+<div bag="default" created="20201108203401854" modified="20201108211342609" revision="0" tags="Bisexual" title="Omnisexual">
 <pre>Omnisexual is defined as being attracted to all genders, but gender does in fact play a part in their attraction.
 
 The romantic counterpart to omnisexuality is [[omniromanticism|Omniromantic]].
@@ -10808,7 +10888,7 @@ Omnisexuals can tend to feel a &quot;difference between genders.&quot;&lt;sup&gt
 
 Pansexuality on the other hand does not exhibit this attribute of omnisexuality. Pansexuals do not experience a difference of attraction among different genders.</pre>
 </div>
-<div created="20201108182118324" list="Queer Questioning Allosexual Gay Lesbian Gender" modified="20201108211821217" tags="TableOfContents" title="Other Terms" revision="0" bag="default">
+<div bag="default" created="20201108182118324" list="Queer Questioning Allosexual Gay Lesbian Gender" modified="20201108211821217" revision="0" tags="TableOfContents" title="Other Terms">
 <pre>This is a list of other terms that are not [[gender identities|Gender Identity]], [[sexualities|Sexual Orientation]], or [[romantic orientations|Romantic Orientation]].
 
 ! Terms
@@ -10820,7 +10900,7 @@ Pansexuality on the other hand does not exhibit this attribute of omnisexuality.
 * [[Lesbian]]
 * [[Gender]]</pre>
 </div>
-<div created="20201108211022692" modified="20201108211139818" tags="Biromantic" title="Panromantic" revision="0" bag="default">
+<div bag="default" created="20201108211022692" modified="20201108211139818" revision="0" tags="Biromantic" title="Panromantic">
 <pre>Panromantic is defined as someone who is romantically attracted to anyone, regardless of gender. Panromantic people may be described as being 'gender blind' showing that gender is not a factor in their attraction to a person.
 
 The sexual counterpart to panromanticism is [[pansexuality|Pansexual]].
@@ -10831,7 +10911,7 @@ Omniromantics can tend to feel a difference between genders. Omniromantics may b
 
 Panromanticism on the other hand does not exhibit this attribute of omniromanticism. Panromantics do not experience a difference of attraction among different genders.</pre>
 </div>
-<div created="20201108203355422" modified="20201108211158411" tags="Bisexual" title="Pansexual" revision="0" bag="default">
+<div bag="default" created="20201108203355422" modified="20201108211158411" revision="0" tags="Bisexual" title="Pansexual">
 <pre>Pansexual is defined as someone who is sexually attracted to anyone, regardless of gender. &quot;Pansexual people may be described as being 'gender blind' showing that gender is not a factor in their attraction to a person.&quot;&lt;sup&gt;&lt;a href=&quot;https://lgbta.wikia.org/wiki/Pansexual&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;
 
 The romantic counterpart to pansexuality is [[panromanticism|Panromantic]].
@@ -10841,39 +10921,39 @@ Omnisexuals can tend to feel a &quot;difference between genders.&quot;&lt;sup&gt
 
 Pansexuality on the other hand does not exhibit this attribute of omnisexuality. Pansexuals do not experience a difference of attraction among different genders.</pre>
 </div>
-<div created="20201108211405777" modified="20201108211424098" tags="Biromantic" title="Polyromantic" revision="0" bag="default">
+<div bag="default" created="20201108211405777" modified="20201108211424098" revision="0" tags="Biromantic" title="Polyromantic">
 <pre>Polyromantic is defined as being attracted to many genders, but not all genders. This can be any number of genders, up to all genders except for one.
 
 The sexual counterpart of polyromanticism is [[polysexuality|Polysexual]].</pre>
 </div>
-<div created="20201108203406718" modified="20201108211438058" tags="Bisexual" title="Polysexual" revision="0" bag="default">
+<div bag="default" created="20201108203406718" modified="20201108211438058" revision="0" tags="Bisexual" title="Polysexual">
 <pre>Polysexual is defined as being attracted to many genders, but not all genders. This can be any number of genders, up to all genders except for one.
 
 The romantic counterpart for polysexuality is [[polyromanticism|Polyromantic]].</pre>
 </div>
-<div created="20201108182147423" modified="20201108182147423" tags="[[Other Terms]]" title="Queer" revision="0" bag="default">
+<div bag="default" created="20201108182147423" modified="20201108182147423" revision="0" tags="[[Other Terms]]" title="Queer">
 <pre></pre>
 </div>
-<div created="20201108182138687" modified="20201108182138687" tags="[[Other Terms]]" title="Questioning" revision="0" bag="default">
+<div bag="default" created="20201108182138687" modified="20201108182138687" revision="0" tags="[[Other Terms]]" title="Questioning">
 <pre></pre>
 </div>
-<div created="20140901120057909" modified="20140901120057909" title="ReadMe" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20140901120057909" modified="20140901120057909" revision="0" title="ReadMe" type="text/vnd.tiddlywiki">
 <pre>[img[https://travis-ci.com/skeetcha/queer-rosetta-stone.svg?branch=master]]
 
 A TiddlyWiki hosted on GitHub pages holding language from around the world describing identities in the LGBTQ+ community
 </pre>
 </div>
-<div created="20201108210705260" modified="20201108210731417" tags="Aromantic" title="Reciproromantic" revision="0" bag="default">
+<div bag="default" created="20201108210705260" modified="20201108210731417" revision="0" tags="Aromantic" title="Reciproromantic">
 <pre>Reciproromantic is defined as being romantic attracted to someone after finding out the attraction is reciprocated.
 
 The sexual counterpart to reciproromantic is [[reciprosexual|Reciprosexual]].</pre>
 </div>
-<div created="20201108201430088" modified="20201108210752162" tags="Asexual" title="Reciprosexual" revision="0" bag="default">
+<div bag="default" created="20201108201430088" modified="20201108210752162" revision="0" tags="Asexual" title="Reciprosexual">
 <pre>Reciprosexual is defined as being sexually attracted to someone after finding out the attraction is reciprocated.
 
 The romantic counterpart to reciprosexual is [[reciproromantic|Reciproromantic]].</pre>
 </div>
-<div created="20201108204211686" list="Heteroromantic Homoromantic Aromantic Biromantic" modified="20201108204413997" tags="TableOfContents" title="Romantic Orientation" revision="0" bag="default">
+<div bag="default" created="20201108204211686" list="Heteroromantic Homoromantic Aromantic Biromantic" modified="20201108204413997" revision="0" tags="TableOfContents" title="Romantic Orientation">
 <pre>Romantic Orientation is the definition of who someone is romantically attracted to.
 
 * [[Heteroromantic]]
@@ -10881,7 +10961,7 @@ The romantic counterpart to reciprosexual is [[reciproromantic|Reciproromantic]]
 * [[Aromantic]]
 * [[Biromantic]]</pre>
 </div>
-<div created="20201108075100869" list="Heterosexual Homosexual Asexual Bisexual" modified="20201108204658844" tags="TableOfContents" title="Sexual Orientation" revision="0" bag="default">
+<div bag="default" created="20201108075100869" list="Heterosexual Homosexual Asexual Bisexual" modified="20201108204658844" revision="0" tags="TableOfContents" title="Sexual Orientation">
 <pre>Sexual Orientation is the definition of who someone is sexually attracted to.
 
 * [[Heterosexual]]
@@ -10889,7 +10969,7 @@ The romantic counterpart to reciprosexual is [[reciproromantic|Reciproromantic]]
 * [[Asexual]]
 * [[Bisexual]]</pre>
 </div>
-<div created="20201108182056433" modified="20201108211919505" tags="Gender" title="Transgender" revision="0" bag="default">
+<div bag="default" created="20201108182056433" modified="20201108211919505" revision="0" tags="Gender" title="Transgender">
 <pre>Transgender is defined as not identifying with the gender you were assigned at birth. The opposite to transgender is [[cisgender|Cisgender]].</pre>
 </div>
 
@@ -10899,7 +10979,7 @@ The romantic counterpart to reciprosexual is [[reciproromantic|Reciproromantic]]
 
 <!--~~ Library modules ~~-->
 <div id="libraryModules" style="display:none;">
-<script data-tiddler-library="yes" data-tiddler-title="$:/library/sjcl.js" data-tiddler-type="application/javascript" data-tiddler-revision="0" data-tiddler-bag="default" type="text/javascript">"use strict";var sjcl={cipher:{},hash:{},keyexchange:{},mode:{},misc:{},codec:{},exception:{corrupt:function(a){this.toString=function(){return"CORRUPT: "+this.message};this.message=a},invalid:function(a){this.toString=function(){return"INVALID: "+this.message};this.message=a},bug:function(a){this.toString=function(){return"BUG: "+this.message};this.message=a},notReady:function(a){this.toString=function(){return"NOT READY: "+this.message};this.message=a}}};
+<script data-tiddler-bag="default" data-tiddler-library="yes" data-tiddler-revision="0" data-tiddler-title="$:/library/sjcl.js" data-tiddler-type="application/javascript" type="text/javascript">"use strict";var sjcl={cipher:{},hash:{},keyexchange:{},mode:{},misc:{},codec:{},exception:{corrupt:function(a){this.toString=function(){return"CORRUPT: "+this.message};this.message=a},invalid:function(a){this.toString=function(){return"INVALID: "+this.message};this.message=a},bug:function(a){this.toString=function(){return"BUG: "+this.message};this.message=a},notReady:function(a){this.toString=function(){return"NOT READY: "+this.message};this.message=a}}};
 sjcl.cipher.aes=function(a){this.s[0][0][0]||this.O();var b,c,d,e,f=this.s[0][4],g=this.s[1];b=a.length;var h=1;if(4!==b&&6!==b&&8!==b)throw new sjcl.exception.invalid("invalid aes key size");this.b=[d=a.slice(0),e=[]];for(a=b;a<4*b+28;a++){c=d[a-1];if(0===a%b||8===b&&4===a%b)c=f[c>>>24]<<24^f[c>>16&255]<<16^f[c>>8&255]<<8^f[c&255],0===a%b&&(c=c<<8^c>>>24^h<<24,h=h<<1^283*(h>>7));d[a]=d[a-b]^c}for(b=0;a;b++,a--)c=d[b&3?a:a-4],e[b]=4>=a||4>b?c:g[0][f[c>>>24]]^g[1][f[c>>16&255]]^g[2][f[c>>8&255]]^g[3][f[c&
 255]]};
 sjcl.cipher.aes.prototype={encrypt:function(a){return t(this,a,0)},decrypt:function(a){return t(this,a,1)},s:[[[],[],[],[],[]],[[],[],[],[],[]]],O:function(){var a=this.s[0],b=this.s[1],c=a[4],d=b[4],e,f,g,h=[],k=[],l,n,m,p;for(e=0;0x100>e;e++)k[(h[e]=e<<1^283*(e>>7))^e]=e;for(f=g=0;!c[f];f^=l||1,g=k[g]||1)for(m=g^g<<1^g<<2^g<<3^g<<4,m=m>>8^m&255^99,c[f]=m,d[m]=f,n=h[e=h[l=h[f]]],p=0x1010101*n^0x10001*e^0x101*l^0x1010100*f,n=0x101*h[m]^0x1010100*m,e=0;4>e;e++)a[e][f]=n=n<<24^n>>>8,b[e][m]=p=p<<24^p>>>8;for(e=
@@ -10963,7 +11043,7 @@ b){var c={},d;for(d=0;d<b.length;d++)void 0!==a[b[d]]&&(c[b[d]]=a[b[d]]);return 
 </div>
 <!--~~ Boot kernel prologue ~~-->
 <div id="bootKernelPrefix" style="display:none;">
-<script data-tiddler-title="$:/boot/bootprefix.js" data-tiddler-type="application/javascript" data-tiddler-revision="0" data-tiddler-bag="default" type="text/javascript">/*\
+<script data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/bootprefix.js" data-tiddler-type="application/javascript" type="text/javascript">/*\
 title: $:/boot/bootprefix.js
 type: application/javascript
 
@@ -11086,7 +11166,7 @@ if(typeof(exports) === "undefined") {
 </div>
 <!--~~ Boot kernel ~~-->
 <div id="bootKernel" style="display:none;">
-<script data-tiddler-title="$:/boot/boot.js" data-tiddler-type="application/javascript" data-tiddler-revision="0" data-tiddler-bag="default" type="text/javascript">/*\
+<script data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/boot.js" data-tiddler-type="application/javascript" type="text/javascript">/*\
 title: $:/boot/boot.js
 type: application/javascript
 
