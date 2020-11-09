@@ -3,7 +3,6 @@ modified: 20140901120057909
 title: ReadMe
 type: text/vnd.tiddlywiki
 
-! HelloThere
+[img[https://travis-ci.com/skeetcha/queer-rosetta-stone.svg?branch=master]]
 
-{{HelloThere}}
-
+A TiddlyWiki hosted on GitHub pages holding language from around the world describing identities in the LGBTQ+ community
